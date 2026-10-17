@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hyperspectral-object-detection"
+version = "0.1.0"
+description = "Hyperspectral object detection and dataset analysis project"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "Pillow",
+    "matplotlib"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]

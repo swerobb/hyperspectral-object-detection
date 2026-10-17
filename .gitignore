@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+
+# Dataset
+data/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Python packaging files
+*.egg-info/
+
+# PyCharm project settings
+.idea/
+
+# macOS files
+.DS_Store
+
+# Test/cache files
+.pytest_cache/
